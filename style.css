@@ -1,0 +1,40 @@
+.app {
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows:  minmax(100px auto) repeat(5,100px);
+}
+.panel {
+    grid-column: 1/-1;
+}
+.col-2 {
+    grid-row: span 2;
+}
+.output {
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.history {
+    min-height: 30px;
+    color: rgb(161, 161, 161);
+}
+
+.panel {
+    background-color: rgb(43, 25, 1);
+    padding: 2% 1%;
+    text-align: right;
+}
+
+
+.app>button {
+    padding: 30%;
+    background-color: wheat;
+    font-weight: bold;
+}
+.app>button:hover {
+    background-color:rgba(245, 222, 179, 0.746);
+}
