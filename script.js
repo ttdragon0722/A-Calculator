@@ -2,6 +2,7 @@ class Calculator {
     panel = $(".panel");
     history = $(".history");
     output = $(".output");
+    
 
     data = "0";
     prev_data = "";
